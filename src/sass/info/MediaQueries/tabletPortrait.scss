@@ -1,0 +1,10 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+    @import '../mobile';
+  	& {
+      nav:before {
+        height: 109px;
+      }
+	}
+}

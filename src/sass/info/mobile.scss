@@ -1,0 +1,59 @@
+& {
+  .phone {
+    font-size: 17px;
+  }
+  .head-item {
+    text-align: center;
+    .time {
+      max-width: 230px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .head {
+    background: 0 0;
+  }
+  .why {
+    padding: 100px 0 50px;
+  }
+  .why-item {
+    text-align: center;
+  }
+  .h2-title {
+    font-size: 21px;
+    margin-bottom: 30px;
+  }
+  .section_1-info {
+    font-size: 16px;
+  }
+  .address .h2-title {
+    text-align: center;
+  }
+  .price-item {
+    margin-bottom: 30px;
+  }
+  .bonus-item {
+    margin-bottom: 30px;
+  }
+  .footer {
+    text-align: center;
+    .logo {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .phone {
+      float: none;
+    }
+    .footer-list {
+      margin-bottom: 30px;
+      li {
+        margin-top: 30px;
+        display: block;
+      }
+    }
+  }
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+}
+}
